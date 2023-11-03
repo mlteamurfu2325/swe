@@ -1,4 +1,4 @@
-# ДЗ №1 по "Программное инженерии"
+# ДЗ №1 по "Программной инженерии"
 # https://huggingface.co/dslim/bert-base-NER
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
