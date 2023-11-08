@@ -11,5 +11,4 @@ QA_input = {
     "Taxi drivers in London are a special group. Driving a Taxi is a family tradition and many families have multiple generations behind the wheel. Before one can get a Taxi license one must drive around London for two years on a motorcycle learning the roads. So needless to say Taxi Drivers in London can get you anywhere you want to go and fast."
 }
 
-print(classifier(QA_input))
-
+print(classifier(QA_input)) # {'score': 0.0007053089793771505, 'start': 16, 'end': 22, 'answer': 'London'}
