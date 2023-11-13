@@ -8,3 +8,11 @@
 ```buildoutcfg
 pip install transformers sentencepiece sacremoses
 ```
+## 2) khitrin-hw01-NER.py
+*Демонстрация возможностей модели [bert-base-NER](https://huggingface.co/dslim/bert-base-NER) из репозитория **HuggingFace**. **BERT** — это семейство языковых моделей, представленное в свет в октябре 2018 г. исследовательской командой из **Google**. В данном случае, как следует из её названия, модель специфически настроена на решение задач **NER** — распознавания именованных сущностей.*
+
+*Для запуска кода потребуется установка зависимостей:*
+
+```buildoutcfg
+pip install transformers
+```
