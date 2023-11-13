@@ -3,6 +3,9 @@
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from transformers import pipeline
+from transformers import logging
+
+logging.set_verbosity_error()
 
 tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
 model = AutoModelForTokenClassification.from_pretrained("dslim/bert-base-NER")
