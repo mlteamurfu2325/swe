@@ -14,5 +14,5 @@ pip install transformers sentencepiece sacremoses
 *Для запуска кода потребуется установка зависимостей:*
 
 ```buildoutcfg
-pip install transformers
+pip install transformers torch
 ```
