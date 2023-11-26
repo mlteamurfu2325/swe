@@ -15,5 +15,9 @@ $ pip install -r requirements.txt
 ```
 Для демонстрации работы приложения на localhost:
 ```
-$ pip install -r requirements.txt
+$ uvicorn get_answer:app
 ```
+
+## Демонстрация решения
+![Screenshot from 2023-11-27 01-06-02](https://github.com/mlteamurfu2325/swe/assets/73106199/a02fd295-1ed2-4521-9e31-23062fe07211)
+![Screenshot from 2023-11-27 01-06-33](https://github.com/mlteamurfu2325/swe/assets/73106199/7e3fd410-7c5a-4d4f-b0c5-b2af48492668)
