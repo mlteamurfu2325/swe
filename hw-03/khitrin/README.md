@@ -6,10 +6,10 @@
 Для запуска кода потребуется установка зависимостей:
 
 ```buildoutcfg
-pip install -r requiremnts.txt
+pip install -r requirements.txt
 ```
 
-Запустить FastAPI-приложение с помощью uvicorn локально можно следущей командой:
+Запустить `FastAPI`-приложение с помощью `uvicorn` локально можно следущей командой:
 ```
 uvicorn khitrin-hw03-FastAPI-NER:app --host 127.0.0.1 --port 8000
 ```
