@@ -7,7 +7,7 @@
 *Для запуска кода потребуется установка зависимостей:*
 
 ```buildoutcfg
-pip install transformers sentencepiece sacremoses tensorflow
+pip install -r requirements.txt
 ```
 ---
 Модель запущена на внешнем облаке по адресу:
