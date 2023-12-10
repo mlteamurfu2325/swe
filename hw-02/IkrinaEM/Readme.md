@@ -8,7 +8,7 @@
 
 
 Требуется предварительная установка библиотек (pip install transformers):
-streamlit
-torch
-transformers
-sentencepiece
+- streamlit
+- torch
+- transformers
+- sentencepiece
