@@ -11,4 +11,4 @@ pip install -r requiremnts.txt
 
 А для запуска приложения на локальном сервере неоходимо выполнить следующую команду:
 
-uvicorn tIkrina_hw03:app
+uvicorn Ikrina_hw03:app
