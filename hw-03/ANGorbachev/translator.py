@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "This is API of light translator application based on opus-mt-ru-en model from Helsinki-NL>
+    return {"message": "This is API of light translator application based on opus-mt-ru-en model from Helsinki-NL>"}
 
 
 @app.post("/translate/")
