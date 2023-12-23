@@ -5,9 +5,8 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths:
+    - 'hw-05/Ikrina/**'   
 
 permissions:
   contents: read
