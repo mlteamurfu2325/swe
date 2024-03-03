@@ -35,7 +35,6 @@ def progress_info():
         st.success("Done! ",  icon="✅")
 
 
-
 if __name__ == "__main__":
     load_info()
     classifier = load_model()
@@ -45,3 +44,4 @@ if __name__ == "__main__":
     if click:
         progress_info()
         print_answer(classifier(QA_input))
+
