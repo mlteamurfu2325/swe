@@ -6,10 +6,10 @@ name: flake8_khardin
 on:
   push:
     paths:
-    - 'hw-05/khardin/**'  
+    - 'hw-02/khardin/**'  
   pull_request:
     paths:
-    - 'hw-05/khardin/**'  
+    - 'hw-02/khardin/**'  
 
 permissions:
   contents: read
